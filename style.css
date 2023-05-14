@@ -159,23 +159,12 @@ nav.open~.overlay {
 
 #materi .deskripsi .block-1 {
     width: 350px;
-    height: 500px;
+    height: 530px;
     background-color: white;
     border-style: ridge;
     border-radius: 8px;
     margin: 20px;
     margin-top: 50px;
-}
-
-.bagian-materi .materi-1 {
-    width: 350px;
-    height: 500px;
-    background-color: white;
-    border-style: ridge;
-    border-radius: 8px;
-    margin: 20px;
-    margin-top: 50px;
-
 }
 
 .bagian-materi .block-1 img {
@@ -320,11 +309,10 @@ nav.open~.overlay {
     margin-bottom: -3px;
 }
 
-/* Styling untuk layar smartphone-1 */
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 999px) {
 
     .bagian-1 {
-        width: 720px;
+        width: 999px;
         height: 650px;
 
     }
@@ -351,7 +339,7 @@ nav.open~.overlay {
     }
 
     .bagian-2 {
-        width: 720px;
+        width: 999px;
         height: 300px;
     }
 
@@ -368,12 +356,22 @@ nav.open~.overlay {
 
     }
 
+    #materi .deskripsi .indo {
+        width: 320px;
+        height: 450px;
+        background-color: white;
+        border-style: ridge;
+        border-radius: 8px;
+        margin: 20px;
+        margin-top: 50px;
+    }
+
     .bagian-materi {
         margin-bottom: 1000px;
     }
 
     .bagian-3 {
-        width: 720px;
+        width: 999px;
         height: 320px;
         margin-top: 1375px;
     }
@@ -385,7 +383,7 @@ nav.open~.overlay {
     }
 
     .bagian-4 {
-        width: 720px;
+        width: 999px;
         height: 300px;
     }
 
@@ -401,7 +399,7 @@ nav.open~.overlay {
     }
 
     .bagian-5 {
-        width: 720px;
+        width: 999px;
         height: 350px;
         margin-top: 535px
     }
@@ -426,7 +424,12 @@ nav.open~.overlay {
         margin-bottom: -3px;
     }
 
+    #profil .deskripsi .profil {
+        text-align: center;
+    }
+
 }
+
 
 /* Styling untuk layar smartphone */
 @media only screen and (max-width: 480px) {
@@ -474,6 +477,16 @@ nav.open~.overlay {
         width: 320px;
         height: 530px;
 
+    }
+
+    #materi .deskripsi .indo {
+        width: 320px;
+        height: 450px;
+        background-color: white;
+        border-style: ridge;
+        border-radius: 8px;
+        margin: 20px;
+        margin-top: 50px;
     }
 
     .bagian-materi {
