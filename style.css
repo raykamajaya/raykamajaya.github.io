@@ -119,7 +119,7 @@ nav.open~.overlay {
 /* BAGIAN-HOME */
 .bagian-1 {
     width: 100%;
-    height: 620px;
+    height: 650px;
     background-color: #4070f4;
 }
 
@@ -127,10 +127,15 @@ nav.open~.overlay {
     color: white;
 }
 
+#home {
+    display: flex;
+    justify-content: center;
+
+}
+
 .bagian-home img {
     width: 450px;
     margin-top: 75px;
-    margin-left: 32%;
 }
 
 .bagian-home .deskripsi {
@@ -146,9 +151,20 @@ nav.open~.overlay {
     font-size: 20px;
 }
 
-#materi {
+#materi .deskripsi {
     display: flex;
     justify-content: center;
+
+}
+
+#materi .deskripsi .block-1 {
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    border-style: ridge;
+    border-radius: 8px;
+    margin: 20px;
+    margin-top: 50px;
 }
 
 .bagian-materi .materi-1 {
@@ -162,27 +178,19 @@ nav.open~.overlay {
 
 }
 
-.bagian-materi .materi-1 img {
+.bagian-materi .block-1 img {
     width: 250px;
     margin-left: 35px;
     margin-top: 65px;
 }
 
-.bagian-materi .materi-1 h1 {
+.bagian-materi .block-1 h1 {
     font-size: 15px;
     margin-top: 50px;
     margin-left: 20px;
 }
 
-.bagian-materi .materi-1 .img2 {
-    margin-top: 60px;
-}
-
-.bagian-materi .materi-1 .img3 {
-    margin-top: 45px;
-}
-
-.bagian-materi .materi-1 p {
+.bagian-materi .block-1 p {
     font-size: 12px;
     margin-left: 20px;
     margin-right: 20px;
@@ -190,13 +198,21 @@ nav.open~.overlay {
     color: #707070;
 }
 
-.bagian-materi .materi-1 a {
+.bagian-materi .block-1 a {
     font-size: 12px;
     margin-left: 20px;
     margin-right: 20px;
 }
 
-.bagian-materi .materi-1 .tombol {
+.bagian-materi .block-1 .gambar-1 {
+    margin-top: -10px;
+}
+
+.bagian-materi .block-1 .gambar-2 {
+    margin-top: -20px;
+}
+
+.bagian-materi .block-1 .tombol {
     background-color: #041d61;
     padding: 5px 15px;
     border-radius: 5px;
@@ -226,12 +242,12 @@ nav.open~.overlay {
     font-size: 20px;
 }
 
-#diskusi {
+#diskusi .deskripsi {
     display: flex;
     justify-content: center;
 }
 
-.bagian-4 .diskusi-1 {
+.bagian-4 .block-1 {
     width: 350px;
     height: 240px;
     background-color: #ffffff;
@@ -304,216 +320,13 @@ nav.open~.overlay {
     margin-bottom: -3px;
 }
 
-@media only screen and (max-width: 480px) {
+/* Styling untuk layar smartphone-1 */
+@media only screen and (max-width: 720px) {
 
     .bagian-1 {
-        width: 480px;
+        width: 720px;
         height: 650px;
-        
-    }
 
-    .bagian-home {
-        color: white;
-    }
-
-    .bagian-home img {
-        width: 350px;
-        margin-left: 65px;
-        margin-top: 150px;
-    }
-
-    .bagian-home .deskripsi {
-        text-align: center;
-        font-size: 12px;
-    }
-
-    .bagian-home .tombol {
-        font-size: 15px;
-    }
-
-    #materi {
-        display: grid;
-        
-    }
-
-    .bagian-materi .materi-1 {
-        width: 320px;
-        height: 510px;
-        background-color: #ffffff;
-        margin-top: -2px;
-        border-radius: 10px;
-        border-style: ridge;
-    }
-    .bagian-materi .fa-utama {
-        width: 320px;
-        height: 430px;
-        background-color: #ffffff;
-        margin-top: 40px;
-        border-radius: 10px;
-        border-style: ridge;
-    }
-
-    .bagian-materi .materi-1 img {
-        width: 250px;
-        margin: 20px;
-        margin-left: 35px;
-        margin-top: 20px;
-    }
-
-    .bagian-materi .materi-1 h1 {
-        margin-top: 35px;
-        margin-left: 20px;
-        font-size: 15px;
-    }
-
-    .bagian-materi .materi-1 .img2 {
-        margin-top: 15px;
-    }
-
-    .bagian-materi .materi-1 .img3 {
-        margin-top: 10px;
-    }
-
-    .bagian-materi .materi-1 p {
-        margin-top: 10px;
-        margin-left: 20px;
-        margin-right: 20px;
-        color: #707070;
-        font-size: 12px;
-    }
-
-    .bagian-materi .materi-1 a {
-        font-size: 12px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .bagian-materi .materi-1 .tombol {
-        background-color: #041d61;
-        padding: 5px 15px;
-        border-radius: 5px;
-        color: white;
-        text-decoration: none;
-    }
-
-    .bagian-3 {
-        width: 480px;
-        height: 300px;
-        background-color: #4070f4;
-        margin-top: 20px;
-        padding-top: 25px;
-    }
-
-    .bagian-quiz .deskripsi {
-        margin-top: -30px;
-        padding-top: 55px;
-        font-size: 10px;
-    }
-
-    .bagian-quiz .tombol {
-        background-color: #041d61;
-        padding: 5px 15px;
-        border-radius: 5px;
-        color: white;
-        text-decoration: none;
-        font-size: 12px;
-    }
-
-    #diskusi {
-        display: grid;
-        margin-top: 30px;
-    }
-
-    .bagian-4 .diskusi-1 {
-        width: 320px;
-        height: 200px;
-        background-color: #ffffff;
-        margin: 20px;
-        margin-top: -2px;
-        border-radius: 10px;
-        border-style: ridge;
-       
-    }
-
-    .bagian-4 h1 {
-        font-size: 15px;
-        margin-top: -46px;
-        margin-left: 75px;
-    }
-
-    .bagian-4 p {
-        font-size: 10px;
-        margin-top: px;
-        margin-left: 75px;
-        margin-bottom: 8px;
-        margin-right: 25px;
-    }
-
-    .bagian-4 .tombol-1 {
-        font-size: 12px;
-        margin-top: 2px;
-        margin-left: 75px;
-        background-color: #041d61;
-        padding: 5px 15px;
-        border-radius: 5px;
-        color: white;
-        text-decoration: none;
-    }
-
-    #profil {
-        display: grid;
-        justify-content: center;
-    }
-
-    .bagian-5 {
-        width: 480px;
-        height: 320px;
-        background-color: #4070f4;
-        margin-top: 10px;
-        padding-top: 0px;
-        font-size: 12px;
-    }
-
-    .bagian-5 img {
-        width: 85px;
-        border-radius: 50%;
-        margin-left: 125px;
-    }
-
-    .bagian-5 .deskripsi {
-        color: white;
-        text-align: start;
-        width: 320px;
-        margin-top: 20px;
-        margin-left: 0px;
-        font-size: 12px;
-    }
-
-    .bagian-5 .deskripsi .fa-square-instagram {
-        margin-left: 9px;
-    }
-
-    .bagian-5 .tombol {
-        display: inline-block;
-        overflow: auto;
-        background-color: #041d61;
-        padding: 5px 15px;
-        border-radius: 5px;
-        color: white;
-        text-decoration: none;
-        margin-left: 12px;
-        font-size: 12px;
-        margin-bottom: -3px;
-    }
-}
-
-/* Styling untuk layar smartphone */
-@media only screen and (max-width: 360px) {
-
-    .bagian-1 {
-        width: 360px;
-        height: 650px;
-        
     }
 
     .bagian-home {
@@ -529,167 +342,79 @@ nav.open~.overlay {
     .bagian-home .deskripsi {
         text-align: center;
         font-size: 12px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .bagian-home .tombol {
         font-size: 15px;
     }
 
-    #materi {
+    .bagian-2 {
+        width: 720px;
+        height: 300px;
+    }
+
+    #materi .deskripsi {
         display: grid;
+        margin-top: 30px;
+
     }
 
-    .bagian-materi .materi-1 {
+    #materi .deskripsi .block-1 {
+        margin-top: 5px;
         width: 320px;
-        height: 510px;
-        background-color: #ffffff;
-        margin-top: -2px;
-        border-radius: 10px;
-        border-style: ridge;
-    }
-    .bagian-materi .fa-utama {
-        width: 320px;
-        height: 430px;
-        background-color: #ffffff;
-        margin-top: 40px;
-        border-radius: 10px;
-        border-style: ridge;
+        height: 530px;
+
     }
 
-    .bagian-materi .materi-1 img {
-        width: 250px;
-        margin: 20px;
-        margin-left: 35px;
-        margin-top: 20px;
-    }
-
-    .bagian-materi .materi-1 h1 {
-        margin-top: 35px;
-        margin-left: 20px;
-        font-size: 15px;
-    }
-
-    .bagian-materi .materi-1 .img2 {
-        margin-top: 15px;
-    }
-
-    .bagian-materi .materi-1 .img3 {
-        margin-top: 10px;
-    }
-
-    .bagian-materi .materi-1 p {
-        margin-top: 10px;
-        margin-left: 20px;
-        margin-right: 20px;
-        color: #707070;
-        font-size: 12px;
-    }
-
-    .bagian-materi .materi-1 a {
-        font-size: 12px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .bagian-materi .materi-1 .tombol {
-        background-color: #041d61;
-        padding: 5px 15px;
-        border-radius: 5px;
-        color: white;
-        text-decoration: none;
+    .bagian-materi {
+        margin-bottom: 1000px;
     }
 
     .bagian-3 {
-        width: 360px;
-        height: 300px;
-        background-color: #4070f4;
-        margin-top: 20px;
-        padding-top: 25px;
+        width: 720px;
+        height: 320px;
+        margin-top: 1375px;
     }
 
-    .bagian-quiz .deskripsi {
-        margin-top: -30px;
-        padding-top: 55px;
-        font-size: 10px;
-    }
-
-    .bagian-quiz .tombol {
-        background-color: #041d61;
-        padding: 5px 15px;
-        border-radius: 5px;
-        color: white;
-        text-decoration: none;
+    #quiz .deskripsi {
         font-size: 12px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
-    #diskusi {
+    .bagian-4 {
+        width: 720px;
+        height: 300px;
+    }
+
+    #diskusi .deskripsi {
         display: grid;
         margin-top: 30px;
     }
 
-    .bagian-4 .diskusi-1 {
+    #diskusi .deskripsi .block-1 {
+        margin-top: 5px;
         width: 320px;
-        height: 200px;
-        background-color: #ffffff;
-        margin: 20px;
-        margin-top: -2px;
-        border-radius: 10px;
-        border-style: ridge;
-       
-    }
-
-    .bagian-4 h1 {
-        font-size: 15px;
-        margin-top: -46px;
-        margin-left: 75px;
-    }
-
-    .bagian-4 p {
-        font-size: 10px;
-        margin-top: px;
-        margin-left: 75px;
-        margin-bottom: 8px;
-        margin-right: 25px;
-    }
-
-    .bagian-4 .tombol-1 {
-        font-size: 12px;
-        margin-top: 2px;
-        margin-left: 75px;
-        background-color: #041d61;
-        padding: 5px 15px;
-        border-radius: 5px;
-        color: white;
-        text-decoration: none;
-    }
-
-    #profil {
-        display: grid;
-        justify-content: center;
+        height: 250px;
     }
 
     .bagian-5 {
-        width: 360px;
-        height: 320px;
-        background-color: #4070f4;
-        margin-top: 10px;
-        padding-top: 0px;
+        width: 720px;
+        height: 350px;
+        margin-top: 535px
+    }
+
+    #profil .deskripsi {
         font-size: 12px;
     }
 
-    .bagian-5 img {
-        width: 85px;
-        border-radius: 50%;
-        margin-left: 125px;
-    }
-
-    .bagian-5 .deskripsi {
-        color: white;
-        text-align: start;
-        width: 320px;
-        margin-top: 20px;
-        margin-left: 0px;
-        font-size: 12px;
+    #profil .deskripsi {
+        text-align: left;
+        margin-top: 0;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .bagian-5 .deskripsi .fa-square-instagram {
@@ -697,17 +422,224 @@ nav.open~.overlay {
     }
 
     .bagian-5 .tombol {
-        display: inline-block;
-        overflow: auto;
-        background-color: #041d61;
-        padding: 5px 15px;
-        border-radius: 5px;
-        color: white;
-        text-decoration: none;
-        margin-left: 12px;
         font-size: 12px;
         margin-bottom: -3px;
     }
+
 }
 
+/* Styling untuk layar smartphone */
+@media only screen and (max-width: 480px) {
 
+    .bagian-1 {
+        width: 480px;
+        height: 650px;
+
+    }
+
+    .bagian-home {
+        color: white;
+    }
+
+    .bagian-home img {
+        width: 350px;
+        margin-left: 10px;
+        margin-top: 150px;
+    }
+
+    .bagian-home .deskripsi {
+        text-align: center;
+        font-size: 12px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .bagian-home .tombol {
+        font-size: 15px;
+    }
+
+    .bagian-2 {
+        width: 480px;
+        height: 300px;
+    }
+
+    #materi .deskripsi {
+        display: grid;
+        margin-top: 30px;
+
+    }
+
+    #materi .deskripsi .block-1 {
+        margin-top: 5px;
+        width: 320px;
+        height: 530px;
+
+    }
+
+    .bagian-materi {
+        margin-bottom: 1000px;
+    }
+
+    .bagian-3 {
+        width: 480px;
+        height: 320px;
+        margin-top: 1375px;
+    }
+
+    #quiz .deskripsi {
+        font-size: 12px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .bagian-4 {
+        width: 480px;
+        height: 300px;
+    }
+
+    #diskusi .deskripsi {
+        display: grid;
+        margin-top: 30px;
+    }
+
+    #diskusi .deskripsi .block-1 {
+        margin-top: 5px;
+        width: 320px;
+        height: 250px;
+    }
+
+    .bagian-5 {
+        width: 480px;
+        height: 350px;
+        margin-top: 535px
+    }
+
+    #profil .deskripsi {
+        font-size: 12px;
+    }
+
+    #profil .deskripsi {
+        text-align: left;
+        margin-top: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .bagian-5 .deskripsi .fa-square-instagram {
+        margin-left: 9px;
+    }
+
+    .bagian-5 .tombol {
+        font-size: 12px;
+        margin-bottom: -3px;
+    }
+
+}
+
+/* Styling untuk layar smartphone */
+@media only screen and (max-width: 360px) {
+
+    .bagian-1 {
+        width: 360px;
+        height: 650px;
+
+    }
+
+    .bagian-home {
+        color: white;
+    }
+
+    .bagian-home img {
+        width: 350px;
+        margin-left: 10px;
+        margin-top: 150px;
+    }
+
+    .bagian-home .deskripsi {
+        text-align: center;
+        font-size: 12px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .bagian-home .tombol {
+        font-size: 15px;
+    }
+
+    .bagian-2 {
+        width: 360px;
+        height: 300px;
+    }
+
+    #materi .deskripsi {
+        display: grid;
+        margin-top: 30px;
+
+    }
+
+    #materi .deskripsi .block-1 {
+        margin-top: 5px;
+        width: 320px;
+        height: 530px;
+
+    }
+
+    .bagian-materi {
+        margin-bottom: 1000px;
+    }
+
+    .bagian-3 {
+        width: 360px;
+        height: 320px;
+        margin-top: 1375px;
+    }
+
+    #quiz .deskripsi {
+        font-size: 12px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .bagian-4 {
+        width: 360px;
+        height: 300px;
+    }
+
+    #diskusi .deskripsi {
+        display: grid;
+        margin-top: 30px;
+    }
+
+    #diskusi .deskripsi .block-1 {
+        margin-top: 5px;
+        width: 320px;
+        height: 250px;
+    }
+
+    .bagian-5 {
+        width: 360px;
+        height: 350px;
+        margin-top: 535px
+    }
+
+    #profil .deskripsi {
+        font-size: 12px;
+    }
+
+    #profil .deskripsi {
+        text-align: left;
+        margin-top: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .bagian-5 .deskripsi .fa-square-instagram {
+        margin-left: 9px;
+    }
+
+    .bagian-5 .tombol {
+        font-size: 12px;
+        margin-bottom: -3px;
+    }
+
+}
