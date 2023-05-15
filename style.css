@@ -151,6 +151,8 @@ nav.open~.overlay {
     font-size: 20px;
 }
 
+
+/* MATERI */
 #materi .deskripsi {
     display: flex;
     justify-content: center;
@@ -209,6 +211,8 @@ nav.open~.overlay {
     text-decoration: none;
 }
 
+
+/* QUIZ */
 .bagian-3 {
     width: 100%;
     height: 330px;
@@ -231,36 +235,47 @@ nav.open~.overlay {
     font-size: 20px;
 }
 
+/* DISKUSI */
 #diskusi .deskripsi {
     display: flex;
     justify-content: center;
+
 }
 
-.bagian-4 .block-1 {
+#diskusi .deskripsi .block-1 {
     width: 350px;
     height: 240px;
-    background-color: #ffffff;
+    background-color: white;
+    border-style: ridge;
+    border-radius: 8px;
     margin: 20px;
     margin-top: 50px;
-    border-radius: 10px;
-    border-style: ridge;
 }
 
-.bagian-4 h1 {
-    font-size: 20px;
-    margin-top: -46px;
+.bagian-diskusi .block-1 .icon {
+    width: 250px;
+    margin-left: 35px;
+    margin-top: 30px;
+    font-size: 30px;
+
+}
+
+.bagian-diskusi .block-1 h1 {
+    font-size: 18px;
+    margin-top: -37px;
     margin-left: 75px;
 }
 
-.bagian-4 p {
+.bagian-diskusi .block-1 p {
     font-size: 12px;
     margin-top: px;
     margin-left: 75px;
     margin-bottom: 8px;
     margin-right: 25px;
+    color: #707070;
 }
 
-.bagian-4 .tombol-1 {
+.bagian-diskusi .block-1 .tombol {
     font-size: 12px;
     margin-top: 2px;
     margin-left: 75px;
@@ -271,6 +286,8 @@ nav.open~.overlay {
     text-decoration: none;
 }
 
+
+/* PROFIL */
 #profil {
     display: flex;
     justify-content: center;
@@ -309,10 +326,11 @@ nav.open~.overlay {
     margin-bottom: -3px;
 }
 
-@media only screen and (max-width: 999px) {
+@media only screen and (max-width: 949px) {
 
+    /* HOME */
     .bagian-1 {
-        width: 999px;
+        width: 950px;
         height: 650px;
 
     }
@@ -338,42 +356,24 @@ nav.open~.overlay {
         font-size: 15px;
     }
 
+/* MATERI */
     .bagian-2 {
-        width: 999px;
+        width: 950px;
         height: 300px;
-    }
-
-    #materi .deskripsi {
-        display: grid;
-        margin-top: 30px;
-
     }
 
     #materi .deskripsi .block-1 {
         margin-top: 5px;
-        width: 320px;
+        width: 280px;
         height: 530px;
+        margin: 15px;
 
-    }
-
-    #materi .deskripsi .indo {
-        width: 320px;
-        height: 450px;
-        background-color: white;
-        border-style: ridge;
-        border-radius: 8px;
-        margin: 20px;
-        margin-top: 50px;
-    }
-
-    .bagian-materi {
-        margin-bottom: 1000px;
     }
 
     .bagian-3 {
-        width: 999px;
+        width: 950px;
         height: 320px;
-        margin-top: 1375px;
+        margin-top: 280px;
     }
 
     #quiz .deskripsi {
@@ -382,58 +382,39 @@ nav.open~.overlay {
         margin-right: 20px;
     }
 
+/* QUIZ */
     .bagian-4 {
-        width: 999px;
+        width: 950px;
         height: 300px;
-    }
-
-    #diskusi .deskripsi {
-        display: grid;
         margin-top: 30px;
     }
 
     #diskusi .deskripsi .block-1 {
         margin-top: 5px;
-        width: 320px;
-        height: 250px;
+        width: 280px;
+        height: 265px;
+        margin: 15px;
     }
 
+    /* PROFIL */
     .bagian-5 {
-        width: 999px;
-        height: 350px;
-        margin-top: 535px
+        width: 950px;
+        height: 360px;
+        margin-top: 25px;
     }
 
     #profil .deskripsi {
         font-size: 12px;
-    }
-
-    #profil .deskripsi {
-        text-align: left;
-        margin-top: 0;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .bagian-5 .deskripsi .fa-square-instagram {
-        margin-left: 9px;
-    }
-
-    .bagian-5 .tombol {
-        font-size: 12px;
-        margin-bottom: -3px;
-    }
-
-    #profil .deskripsi .profil {
-        text-align: center;
+        margin-top: 20px;
+        width: 460px;
     }
 
 }
 
-
 /* Styling untuk layar smartphone */
 @media only screen and (max-width: 480px) {
 
+    /* HOME */
     .bagian-1 {
         width: 480px;
         height: 650px;
@@ -461,6 +442,7 @@ nav.open~.overlay {
         font-size: 15px;
     }
 
+    /* MATERI */
     .bagian-2 {
         width: 480px;
         height: 300px;
@@ -493,6 +475,7 @@ nav.open~.overlay {
         margin-bottom: 1000px;
     }
 
+    /* QUIZ */
     .bagian-3 {
         width: 480px;
         height: 320px;
@@ -505,6 +488,7 @@ nav.open~.overlay {
         margin-right: 20px;
     }
 
+    /* DISKUSI */
     .bagian-4 {
         width: 480px;
         height: 300px;
@@ -521,6 +505,7 @@ nav.open~.overlay {
         height: 250px;
     }
 
+    /* PROFIL */
     .bagian-5 {
         width: 480px;
         height: 350px;
@@ -529,13 +514,8 @@ nav.open~.overlay {
 
     #profil .deskripsi {
         font-size: 12px;
-    }
-
-    #profil .deskripsi {
-        text-align: left;
         margin-top: 0;
-        margin-left: 20px;
-        margin-right: 20px;
+        width: 320px;
     }
 
     .bagian-5 .deskripsi .fa-square-instagram {
@@ -552,6 +532,7 @@ nav.open~.overlay {
 /* Styling untuk layar smartphone */
 @media only screen and (max-width: 360px) {
 
+    /* HOME */
     .bagian-1 {
         width: 360px;
         height: 650px;
@@ -579,6 +560,7 @@ nav.open~.overlay {
         font-size: 15px;
     }
 
+    /* MATERI */
     .bagian-2 {
         width: 360px;
         height: 300px;
@@ -597,10 +579,21 @@ nav.open~.overlay {
 
     }
 
+    #materi .deskripsi .indo {
+        width: 320px;
+        height: 440px;
+        background-color: white;
+        border-style: ridge;
+        border-radius: 8px;
+        margin: 20px;
+        margin-top: 50px;
+    }
+
     .bagian-materi {
         margin-bottom: 1000px;
     }
 
+    /* QUIZ */
     .bagian-3 {
         width: 360px;
         height: 320px;
@@ -613,6 +606,7 @@ nav.open~.overlay {
         margin-right: 20px;
     }
 
+    /* DISKUSI */
     .bagian-4 {
         width: 360px;
         height: 300px;
@@ -629,6 +623,7 @@ nav.open~.overlay {
         height: 250px;
     }
 
+    /* PROFIL */
     .bagian-5 {
         width: 360px;
         height: 350px;
@@ -637,13 +632,13 @@ nav.open~.overlay {
 
     #profil .deskripsi {
         font-size: 12px;
-    }
-
-    #profil .deskripsi {
         text-align: left;
         margin-top: 0;
-        margin-left: 20px;
-        margin-right: 20px;
+        width: 320px;
+    }
+
+    #profil .deskripsi .profil {
+        text-align: center;
     }
 
     .bagian-5 .deskripsi .fa-square-instagram {
