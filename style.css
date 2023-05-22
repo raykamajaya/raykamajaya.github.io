@@ -44,6 +44,19 @@ nav .logo {
     font-weight: 500;
 }
 
+.sponsor {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    margin-top: 7px;
+    margin-right: 20px;
+
+}
+
+.sponsor img {
+    width: 130px;
+}
+
 nav .sidebar {
     position: fixed;
     top: 0;
@@ -329,6 +342,11 @@ nav.open~.overlay {
 @media only screen and (max-width: 949px) {
 
     /* HOME */
+    .sponsor {
+        width: 950px;
+    
+    }
+
     .bagian-1 {
         width: 950px;
         height: 650px;
@@ -416,6 +434,11 @@ nav.open~.overlay {
 @media only screen and (max-width: 480px) {
 
     /* HOME */
+    .sponsor {
+        width: 480px;
+    
+    }
+
     .bagian-1 {
         width: 480px;
         height: 650px;
@@ -526,6 +549,11 @@ nav.open~.overlay {
 @media only screen and (max-width: 360px) {
 
     /* HOME */
+    .sponsor {
+        width: 360px;
+    
+    }
+
     .bagian-1 {
         width: 360px;
         height: 650px;
