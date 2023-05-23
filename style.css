@@ -523,11 +523,11 @@ nav.open~.overlay {
 }
 
 /* Styling untuk layar smartphone */
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 380px) {
 
     /* HOME */
     .bagian-1 {
-        width: 360px;
+        width: 380px;
         height: 650px;
 
     }
@@ -555,7 +555,7 @@ nav.open~.overlay {
 
     /* MATERI */
     .bagian-2 {
-        width: 360px;
+        width: 380px;
         height: 300px;
     }
 
@@ -571,7 +571,7 @@ nav.open~.overlay {
 
     /* QUIZ */
     .bagian-3 {
-        width: 360px;
+        width: 380px;
         height: 320px;
         margin-top: 1340px;
     }
@@ -584,7 +584,7 @@ nav.open~.overlay {
 
     /* DISKUSI */
     .bagian-4 {
-        width: 360px;
+        width: 380px;
         height: 300px;
     }
 
@@ -601,7 +601,7 @@ nav.open~.overlay {
 
     /* PROFIL */
     .bagian-5 {
-        width: 360px;
+        width: 380px;
         height: 350px;
         margin-top: 535px
     }
