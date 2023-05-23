@@ -457,13 +457,13 @@ nav.open~.overlay {
 
     #materi .deskripsi .block-1 {
         margin-top: 5px;
-        width: 320px;
+        width: 420px;
         height: 530px;
 
     }
 
     #materi .deskripsi .indo {
-        width: 320px;
+        width: 420px;
         height: 450px;
         margin-top: 50px;
     }
@@ -494,7 +494,7 @@ nav.open~.overlay {
 
     #diskusi .deskripsi .block-1 {
         margin-top: 5px;
-        width: 320px;
+        width: 420px;
         height: 250px;
     }
 
@@ -508,7 +508,7 @@ nav.open~.overlay {
     #profil .deskripsi {
         font-size: 12px;
         margin-top: 0;
-        width: 320px;
+        width: 380px;
     }
 
     .bagian-5 .deskripsi .fa-square-instagram {
@@ -523,7 +523,7 @@ nav.open~.overlay {
 }
 
 /* Styling untuk layar smartphone */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 380px) {
 
     /* HOME */
     .bagian-1 {
@@ -567,6 +567,19 @@ nav.open~.overlay {
 
     .bagian-materi {
         margin-bottom: 1000px;
+    }
+
+    #materi .deskripsi .block-1 {
+        margin-top: 5px;
+        width: 320px;
+        height: 530px;
+
+    }
+
+    #materi .deskripsi .indo {
+        width: 320px;
+        height: 450px;
+        margin-top: 50px;
     }
 
     /* QUIZ */
