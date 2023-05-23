@@ -457,13 +457,13 @@ nav.open~.overlay {
 
     #materi .deskripsi .block-1 {
         margin-top: 5px;
-        width: 420px;
+        width: 320px;
         height: 530px;
 
     }
 
     #materi .deskripsi .indo {
-        width: 420px;
+        width: 320px;
         height: 450px;
         margin-top: 50px;
     }
@@ -494,7 +494,7 @@ nav.open~.overlay {
 
     #diskusi .deskripsi .block-1 {
         margin-top: 5px;
-        width: 420px;
+        width: 320px;
         height: 250px;
     }
 
@@ -508,7 +508,7 @@ nav.open~.overlay {
     #profil .deskripsi {
         font-size: 12px;
         margin-top: 0;
-        width: 380px;
+        width: 320px;
     }
 
     .bagian-5 .deskripsi .fa-square-instagram {
@@ -523,11 +523,11 @@ nav.open~.overlay {
 }
 
 /* Styling untuk layar smartphone */
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 360px) {
 
     /* HOME */
     .bagian-1 {
-        width: 380px;
+        width: 360px;
         height: 650px;
 
     }
@@ -555,7 +555,7 @@ nav.open~.overlay {
 
     /* MATERI */
     .bagian-2 {
-        width: 380px;
+        width: 360px;
         height: 300px;
     }
 
@@ -569,22 +569,9 @@ nav.open~.overlay {
         margin-bottom: 1000px;
     }
 
-    #materi .deskripsi .block-1 {
-        margin-top: 5px;
-        width: 320px;
-        height: 530px;
-
-    }
-
-    #materi .deskripsi .indo {
-        width: 320px;
-        height: 450px;
-        margin-top: 50px;
-    }
-
     /* QUIZ */
     .bagian-3 {
-        width: 380px;
+        width: 360px;
         height: 320px;
         margin-top: 1340px;
     }
@@ -597,7 +584,7 @@ nav.open~.overlay {
 
     /* DISKUSI */
     .bagian-4 {
-        width: 380px;
+        width: 360px;
         height: 300px;
     }
 
@@ -614,7 +601,7 @@ nav.open~.overlay {
 
     /* PROFIL */
     .bagian-5 {
-        width: 380px;
+        width: 360px;
         height: 350px;
         margin-top: 535px
     }
